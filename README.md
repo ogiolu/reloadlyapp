@@ -1,15 +1,21 @@
 # reloadlyapp
 App for reloadly test
 
-Prequisite 
+**Prequisite** 
+
  -Ensure MySql Database Server is Installed
- -Ensure you have a minimum of jdk 1.8 installed 
- -Ensure that GIT and Maven is Installed 
-
-The First Step is to clone the project my using the command 
-
-
  
+ -Ensure you have a minimum of jdk 1.8 installed 
+ 
+ -Ensure that GIT and Maven is Installed 
+ 
+**Setting Up the Project**
+
+The First Step is to clone the project using the command 
+
+ git clone https://github.com/ogiolu/reloadlyapp.git
+ 
+
 
 There are 3 microservices 
 
