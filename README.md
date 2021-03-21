@@ -3,6 +3,7 @@ App for reloadly test
 
 **Prequisite** 
 
+
  -Ensure MySql Database Server is Installed
  
  -Ensure you have a minimum of jdk 1.8 installed 
@@ -10,6 +11,7 @@ App for reloadly test
  -Ensure that GIT and Maven is Installed 
  
 **Setting Up the Project**
+
 
 The First Step is to clone the project using the command 
 
@@ -25,9 +27,11 @@ There are 3 microservices
 
 3 Account Serivice
 
-In addition to these 3 , there is the Eureka Service (Descovery Service ) and also the gateway.
+
+In addition to these 3 , there is the Eureka Service (Discovery Service ) and also the gateway.
 
 I will give little discription of each of the service
+
 
 Eureka Service 
 
