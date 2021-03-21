@@ -45,14 +45,24 @@ Eureka Service
   
   Gateway Service
   
-   This is the gateway that stands in front of the micro-services. Typically it routes request to each of the microservice. It runs on Port 8004. The routing configuration can be found 
+  
+   This is the gateway that stands in front of the micro-services. Typically it routes request to each of the microservice. It runs on Port 8004. The routing configuration can be found .**Kindly ensure that this the first service that is started up**
    in the application.yml 
    ![gateway](https://user-images.githubusercontent.com/17859246/111922997-4d851d00-8a9d-11eb-995f-f2862bd48821.PNG)
    
   
 Notification Service
 
-  This services send email in asynchronous pattern to a particular 
+  This services send email in asynchronous manner.
+  
+  The configuration needed for this service is basically smtp host, sender, from addreess and username and password of the authentication service.
+  
+  It Runs on Port 8282.
+  
+  Below is sample Gmail configuration 
+  
+  ![gmaillconfig](https://user-images.githubusercontent.com/17859246/111923962-33017280-8aa2-11eb-8af2-66c07065989d.PNG)
+
  
   
 
